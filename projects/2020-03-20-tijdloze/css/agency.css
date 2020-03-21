@@ -162,7 +162,7 @@ img::-moz-selection {
   height: 30px;
   position: absolute;
   background-position: 0 0;
-  background-image: url('/Users/lizecoekaerts/Downloads/Untitled (20).svg');
+  background-image: url('/assets/left-arrow.csv');
   transition: transform 400ms 0s cubic-bezier(0.2, 0, 0, 1);
 }
 
