@@ -1,0 +1,6 @@
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz1-songs.html
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz2-artists.html
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz3-flies.html
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz4-countriesmap.html
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz5-belgian.html
+www.cookiebecoding.github.io/projects/2020-03-20-tijdloze/vizs/viz6-gender.html
