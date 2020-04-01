@@ -162,7 +162,7 @@ img::-moz-selection {
   height: 30px;
   position: absolute;
   background-position: 0 0;
-  background-image: url('cookiebecoding.github.io/projects/00-my-portfolio/stories/2020-03-20-tijdloze/assets/left-arrow.svg');
+  background-image: url('https://cookiebecoding.github.io/projects/00-my-portfolio/stories/2020-03-20-tijdloze/assets/left-arrow.svg');
   transition: transform 400ms 0s cubic-bezier(0.2, 0, 0, 1);
 }
 
