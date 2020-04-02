@@ -182,7 +182,27 @@ header.header .intro-text .intro-description {
 
 #belgiumgender {
   padding-top: 0px;
-  padding-bottom: 100px
+  padding-bottom: 4em;
+}
+
+#footnotes {
+  font-size: 12px;
+  margin-bottom: 2em;
+  font-height: 16px;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: lightgrey;
+  font-style: italic;
+}
+
+#footnotes hr {
+  margin-bottom: 0.3em;
+  width: 30%;
+  margin-left:inherit;
+  margin-right: 100%;
+}
+
+#footnotes a {
+  color: lightgray;
 }
 
 .service-heading {
