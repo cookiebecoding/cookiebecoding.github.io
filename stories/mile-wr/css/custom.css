@@ -1,0 +1,82 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  background-color: #2F2F30;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: #8B8B90;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: #2A2A2B;
+}
+
+.navbar a {
+  font-size: 1em;
+}
+
+.navbar .icon {
+  font-size: 0.9em;
+}
+
+.brandlogo:hover {
+    -webkit-filter: brightness(1.5);
+  }
+
+.story {
+  text-align: center;
+  align: center;
+  margin: 2em 0em 3em 0em;
+}
+
+.footer {
+  background-color: #2A2A2B;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.footer span.copyright {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 40px;
+  text-transform: none;
+  color: #56565A;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Contact Buttons */
+
+ul.social-buttons {
+  margin-bottom: 0.5em;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #3B3B3D;
+  opacity: 0.7;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  color:#666666;
+  background-color: white;
+  opacity: 1;
+}
