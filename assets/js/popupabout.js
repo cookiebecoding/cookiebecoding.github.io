@@ -4,8 +4,8 @@
 	var popupabout = document.getElementById("myresume");
 
 	// Get the button that opens the popupabout
-	var btnheader = document.getElementById("popupabout-triggerheader");
-	var btnfooter = document.getElementById("popupabout-triggerfooter");
+	var btnheader = document.getElementById("header-popupabout");
+	var btnfooter = document.getElementById("footer-popupabout");
 
 	// Get the <span> element that closes the popupabout
 	var closethepop = document.getElementsByClassName("closethepop")[0];
