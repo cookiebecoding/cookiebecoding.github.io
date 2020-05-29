@@ -272,6 +272,8 @@ body {
 
   #header .icon.major {
     color: #ffffff;
+		font-family: 'Font Awesome 5 Free';
+
   }
 
   #header p {
