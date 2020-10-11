@@ -1,0 +1,186 @@
+/*! Copyright Cookie be Coding 2020 */
+
+:root {
+  --color-bg-main: rgb(237, 234, 229);
+  --color-text-main: #140309;
+  --color-text-highlight: #BA0B47;
+}
+
+body {
+  background-color: #2F2F30;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, ul {
+  font-size:1.2em;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: #8B8B90;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: #2A2A2B;
+}
+
+.navbar a {
+  font-size: 1em;
+}
+
+.navbar .icon {
+  font-size: 0.9em;
+}
+
+.brandlogo:hover {
+    -webkit-filter: brightness(1.5);
+  }
+
+.story {
+  text-align: left;
+  margin: 2em 1%;
+  padding: 3em 2em 2em 2em;
+  border-radius: 25px;
+  background-color: rgb(229, 228, 228);
+  /*background: var(--color-bg-main);
+  background: linear-gradient(171deg, rgba(87,36,73,1) 0%, rgba(210,126,85,1) 46%, rgba(187,172,131,1) 100%);*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: var(--color-text-main);
+}
+
+/* Darker
+background: rgb(87,36,73);
+background: linear-gradient(171deg, rgba(87,36,73,1) 0%, rgba(210,126,85,1) 46%, rgba(187,172,131,1) 100%);
+*/
+
+.story emph {
+  color: var(--color-text-highlight);
+  font-weight: bold;
+}
+
+.story emph1 {
+  color: var(--color-text-highlight);
+  font-weight: bold;
+}
+
+.story note-inline {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #A588A0;
+}
+
+.story note-inline a {
+  color: #A588A0;
+  text-decoration: underline;
+}
+
+
+/*  #b0ff1f
+    #e8ff14
+    #ddff1f
+*/
+
+#chart-beer-countries p {
+  font-size: 1.1em;
+}
+
+#chart-wine-countries p {
+  font-size: 1.1em;
+}
+
+.footnotes {
+  margin-top: 0.3em;
+  text-align: right;
+  font-size: 0.8em;
+  color: #787058;
+  font-style: italic;
+  line-height: 1em;
+}
+
+.footnotes hr {
+  margin-bottom: 0.3em;
+  width: 26%;
+  margin-right:inherit;
+  border: 0.1px solid #93896B;
+}
+
+.footnotes a {
+  color: #787058;
+}
+
+.footnotes a:hover {
+  color: rgba(46, 134, 146, 0.5);
+}
+
+/* Background colors
+-- too blue
+  background: rgb(36,52,87);
+  background: linear-gradient(171deg, rgba(36,52,87,1) 0%, rgba(52,107,208,1) 43%, rgba(148,168,207,1) 100%);
+
+-- too light
+  background: rgb(36,52,87);
+  background: linear-gradient(171deg, rgba(36,52,87,1) 0%, rgba(111,140,193,1) 40%, rgba(174,184,205,1) 100%);
+*/
+
+
+.footer {
+  background-color: #2A2A2B;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.footer span.copyright {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 40px;
+  text-transform: none;
+  color: #56565A;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* List */
+.story ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1.6em;
+  text-indent: -1.5em;
+}
+
+.story li:before {
+  content: '▹';
+  display: block;
+  float: left;
+  width: 1.2em;
+  color: var(--color-text-main);
+}
+
+/* Contact Buttons */
+
+ul.social-buttons {
+  margin-bottom: 0.5em;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #3B3B3D;
+  opacity: 0.7;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  color:#666666;
+  background-color: white;
+  opacity: 1;
+}
